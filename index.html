@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Manrope%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>ESPE Tasks</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#10231c] dark group/design-root overflow-x-hidden" style='font-family: Manrope, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex flex-col md:flex-row items-center justify-between whitespace-nowrap border-b border-solid border-b-[#214a3c] px-4 md:px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_6_543)">
+                  <path
+                    d="M42.1739 20.1739L27.8261 5.82609C29.1366 7.13663 28.3989 10.1876 26.2002 13.7654C24.8538 15.9564 22.9595 18.3449 20.6522 20.6522C18.3449 22.9595 15.9564 24.8538 13.7654 26.2002C10.1876 28.3989 7.13663 29.1366 5.82609 27.8261L20.1739 42.1739C21.4845 43.4845 24.5355 42.7467 28.1133 40.548C30.3042 39.2016 32.6927 37.3073 35 35C37.3073 32.6927 39.2016 30.3042 40.548 28.1133C42.7467 24.5355 43.4845 21.4845 42.1739 20.1739Z"
+                    fill="currentColor"
+                  ></path>
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M7.24189 26.4066C7.31369 26.4411 7.64204 26.5637 8.52504 26.3738C9.59462 26.1438 11.0343 25.5311 12.7183 24.4963C14.7583 23.2426 17.0256 21.4503 19.238 19.238C21.4503 17.0256 23.2426 14.7583 24.4963 12.7183C25.5311 11.0343 26.1438 9.59463 26.3738 8.52504C26.5637 7.64204 26.4411 7.31369 26.4066 7.24189C26.345 7.21246 26.143 7.14535 25.6664 7.1918C24.9745 7.25925 23.9954 7.5498 22.7699 8.14278C20.3369 9.32007 17.3369 11.4915 14.4142 14.4142C11.4915 17.3369 9.32007 20.3369 8.14278 22.7699C7.5498 23.9954 7.25925 24.9745 7.1918 25.6664C7.14534 26.143 7.21246 26.345 7.24189 26.4066ZM29.9001 10.7285C29.4519 12.0322 28.7617 13.4172 27.9042 14.8126C26.465 17.1544 24.4686 19.6641 22.0664 22.0664C19.6641 24.4686 17.1544 26.465 14.8126 27.9042C13.4172 28.7617 12.0322 29.4519 10.7285 29.9001L21.5754 40.747C21.6001 40.7606 21.8995 40.931 22.8729 40.7217C23.9424 40.4916 25.3821 39.879 27.0661 38.8441C29.1062 37.5904 31.3734 35.7982 33.5858 33.5858C35.7982 31.3734 37.5904 29.1062 38.8441 27.0661C39.879 25.3821 40.4916 23.9425 40.7216 22.8729C40.931 21.8995 40.7606 21.6001 40.747 21.5754L29.9001 10.7285ZM29.2403 4.41187L43.5881 18.7597C44.9757 20.1473 44.9743 22.1235 44.6322 23.7139C44.2714 25.3919 43.4158 27.2666 42.252 29.1604C40.8128 31.5022 38.8165 34.012 36.4142 36.4142C34.012 38.8165 31.5022 40.8128 29.1604 42.252C27.2666 43.4158 25.3919 44.2714 23.7139 44.6322C22.1235 44.9743 20.1473 44.9757 18.7597 43.5881L4.41187 29.2403C3.29027 28.1187 3.08209 26.5973 3.21067 25.2783C3.34099 23.9415 3.8369 22.4852 4.54214 21.0277C5.96129 18.0948 8.43335 14.7382 11.5858 11.5858C14.7382 8.43335 18.0948 5.9613 21.0277 4.54214C22.4852 3.8369 23.9415 3.34099 25.2783 3.21067C26.5973 3.08209 28.1187 3.29028 29.2403 4.41187Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_6_543"><rect width="48" height="48" fill="white"></rect></clipPath>
+                </defs>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">ESPE Tasks</h2>
+          </div>
+          
+          <!-- Menú hamburguesa para móviles -->
+          <button id="menu-toggle" class="md:hidden text-white ml-auto mt-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+              <path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path>
+            </svg>
+          </button>
+          
+          <div id="mobile-menu" class="flex-col md:flex-row w-full md:w-auto md:flex flex-1 justify-end gap-4 md:gap-8 hidden md:flex mt-4 md:mt-0">
+            <div class="flex flex-col md:flex-row items-center gap-4 md:gap-9">
+              <a class="text-white text-sm font-medium leading-normal w-full md:w-auto text-center py-2 md:py-0" href="#">Inicio</a>
+              <a class="text-white text-sm font-medium leading-normal w-full md:w-auto text-center py-2 md:py-0" href="#">Tareas</a>
+              <a class="text-white text-sm font-medium leading-normal w-full md:w-auto text-center py-2 md:py-0" href="#">Calendario</a>
+              <a class="text-white text-sm font-medium leading-normal w-full md:w-auto text-center py-2 md:py-0" href="#">Notas</a>
+            </div>
+            <div class="flex items-center justify-center md:justify-end gap-4 mt-4 md:mt-0">
+              <button
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 bg-[#214a3c] text-white gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+              >
+                <div class="text-white" data-icon="Bell" data-size="20px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                    ></path>
+                  </svg>
+                </div>
+              </button>
+              <div
+                class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAUzbhRDPH52Ss-Ql1Kstpq8__VDTbphGYY-9UgUHdZixDcApAa_zH_jyNFx7KCFj1Mv0ih-eBAFEYS3IaraBO68eNTolMNgXldxmtwWAEixg7Uh8kPOAQd1pcZmBoZc6Yysk5ETk53EOEDeIwZHq8l2aOzNo_-Gt-WyVP-aQsyNtZhvNLtnP3Kl6aQ3L_0MWEjO-68MeSlaXLXjXVHNzafLx2pC3EX_lVQHhKPO4LE7vh81PRwNfTlCMB6_4YytLwlW9EjimB-7EU");'
+              ></div>
+            </div>
+          </div>
+        </header>
+        <div class="px-4 md:px-10 lg:px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4"><p class="text-white tracking-light text-[32px] font-bold leading-tight min-w-72">Mis Tareas</p></div>
+            <div class="pb-3">
+              <div class="flex border-b border-[#2f6a55] px-4 gap-8">
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-[#019863] text-white pb-[13px] pt-4" href="#">
+                  <p class="text-white text-sm font-bold leading-normal tracking-[0.015em]">Por Fecha</p>
+                </a>
+                <a class="flex flex-col items-center justify-center border-b-[3px] border-b-transparent text-[#8ecdb7] pb-[13px] pt-4" href="#">
+                  <p class="text-[#8ecdb7] text-sm font-bold leading-normal tracking-[0.015em]">Por Prioridad</p>
+                </a>
+              </div>
+            </div>
+            
+            <!-- Contenedor de tareas -->
+            <div id="tasks-container">
+              <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Hoy</h3>
+              <!-- Las tareas se insertarán aquí dinámicamente mediante JavaScript -->
+            </div>
+            
+            <div class="flex justify-end overflow-hidden px-5 pb-5">
+              <button
+                id="add-task-btn"
+                class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-14 bg-[#019863] text-white text-base font-bold leading-normal tracking-[0.015em] min-w-0 px-2 gap-4 pl-4 pr-6"
+              >
+                <div class="text-white" data-icon="Plus" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path d="M224,128a8,8,0,0,1-8,8H136v80a8,8,0,0,1-16,0V136H40a8,8,0,0,1,0-16h80V40a8,8,0,0,1,16,0v80h80A8,8,0,0,1,224,128Z"></path>
+                  </svg>
+                </div>
+                Agregar Tarea
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal para añadir tarea -->
+    <div id="add-task-modal" class="modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="text-white tracking-light text-[28px] font-bold leading-tight px-4 text-center pb-3 pt-5">Nueva tarea</h2>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+            <label class="flex flex-col min-w-40 flex-1">
+              <input
+                id="task-name"
+                placeholder="Nombre de la tarea"
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border-none bg-[#214a3c] focus:border-none h-14 placeholder:text-[#8ecdb7] p-4 text-base font-normal leading-normal"
+                value=""
+              />
+            </label>
+          </div>
+          <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+            <label class="flex flex-col min-w-40 flex-1">
+              <textarea
+                id="task-notes"
+                placeholder="Notas"
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border-none bg-[#214a3c] focus:border-none min-h-36 placeholder:text-[#8ecdb7] p-4 text-base font-normal leading-normal"
+              ></textarea>
+            </label>
+          </div>
+          <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+            <label class="flex flex-col min-w-40 flex-1">
+              <input
+                id="task-time"
+                type="time"
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border-none bg-[#214a3c] focus:border-none h-14 placeholder:text-[#8ecdb7] p-4 text-base font-normal leading-normal"
+                value="10:00"
+              />
+            </label>
+          </div>
+          <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+            <label class="flex flex-col min-w-40 flex-1">
+              <select
+                id="task-priority"
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border-none bg-[#214a3c] focus:border-none h-14 placeholder:text-[#8ecdb7] p-4 text-base font-normal leading-normal"
+              >
+                <option value="alta">Alta</option>
+                <option value="media" selected>Media</option>
+                <option value="baja">Baja</option>
+              </select>
+            </label>
+          </div>
+          <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+            <button
+              id="save-task-btn"
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 flex-1 bg-[#019863] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Agregar</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Modal para ver detalles de tarea -->
+    <div id="task-detail-modal" class="modal hidden">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="flex flex-wrap gap-2 p-4">
+            <a class="text-[#8ecdb7] text-base font-medium leading-normal" href="#">Tareas</a>
+            <span class="text-[#8ecdb7] text-base font-medium leading-normal">/</span>
+            <span class="text-white text-base font-medium leading-normal">Tarea</span>
+          </div>
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-body">
+          <h2 id="detail-task-title" class="text-white tracking-light text-[28px] font-bold leading-tight px-4 text-left pb-3 pt-5">Título de la tarea</h2>
+          <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+            <label class="flex flex-col min-w-40 flex-1">
+              <p class="text-white text-base font-medium leading-normal pb-2">Notas</p>
+              <textarea
+                id="detail-task-notes"
+                class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-lg text-white focus:outline-0 focus:ring-0 border border-[#2f6a55] bg-[#17352b] focus:border-[#2f6a55] min-h-36 placeholder:text-[#8ecdb7] p-[15px] text-base font-normal leading-normal"
+                readonly
+              ></textarea>
+            </label>
+          </div>
+          <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Detalles</h3>
+          <div class="flex items-center gap-4 bg-[#10231c] px-4 min-h-[72px] py-2">
+            <div class="text-white flex items-center justify-center rounded-lg bg-[#214a3c] shrink-0 size-12" data-icon="Clock" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Z"></path>
+                <path d="M128,72a8,8,0,0,0-8,8v48a8,8,0,0,0,3.88,6.86l40,24a8,8,0,1,0,8.24-13.72L136,123.15V80A8,8,0,0,0,128,72Z"></path>
+              </svg>
+            </div>
+            <div class="flex flex-col justify-center">
+              <p class="text-white text-base font-medium leading-normal line-clamp-1">Hora</p>
+              <p id="detail-task-time" class="text-[#8ecdb7] text-sm font-normal leading-normal line-clamp-2">10:00 AM</p>
+            </div>
+          </div>
+          <div class="flex items-center gap-4 bg-[#10231c] px-4 min-h-[72px] py-2">
+            <div class="text-white flex items-center justify-center rounded-lg bg-[#214a3c] shrink-0 size-12" data-icon="Flag" data-size="24px" data-weight="regular">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                <path d="M42.35,93.25a8,8,0,0,1,3.4-9.79C56.57,77.8,73.92,72,96,72a134.23,134.23,0,0,1,53.8,11.46A8,8,0,0,0,160,80V32a8,8,0,0,1,4.6-7.25,83.28,83.28,0,0,1,41,0A8,8,0,0,1,208,32v96a8,8,0,0,1-3.4,6.54C194.57,138.87,177.49,144,156,144a137.06,137.06,0,0,1-53.8-11.46A8,8,0,0,0,96,136v88a8,8,0,0,1-16,0V136C80,112.44,74.54,99.19,42.35,93.25ZM192,39.82a68.5,68.5,0,0,0-16,0V121.7c14.94-2.41,25.56-7.07,32-11.88ZM112,120.18a119,119,0,0,0,28,3.82,119,119,0,0,0,28-3.37V48.3c-7.75,1.52-16.71,2.71-28,2.71A119,119,0,0,0,112,47.64Z"></path>
+              </svg>
+            </div>
+            <div class="flex flex-col justify-center">
+              <p class="text-white text-base font-medium leading-normal line-clamp-1">Prioridad</p>
+              <p id="detail-task-priority" class="text-[#8ecdb7] text-sm font-normal leading-normal line-clamp-2">Media</p>
+            </div>
+          </div>
+          <div class="flex px-4 py-3 justify-end">
+            <button
+              id="complete-task-btn"
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-[#019863] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Completar tarea</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
