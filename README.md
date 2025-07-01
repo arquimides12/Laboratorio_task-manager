@@ -12,4 +12,4 @@ npm run serve
 npm install --save-dev html-webpack-plugin
 ```
 
-## pedro
+## pedro 1 
